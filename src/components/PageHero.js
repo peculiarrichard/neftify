@@ -11,7 +11,7 @@ const PageHero = ({icon, title, bigTitle, paragraph, button, buttonLink, heroImg
         <div className='relative w-[90%] mx-auto flex flex-col lg:flex-row items-start justify-between mt-20 px-2' data-aos='fade-up'>
             <div className=' flex flex-col justify-between w-full lg:w-1/2'>
                 <div className='flex gap-2 justify-start items-center'>
-                    <Image src ={icon}></Image>
+                    <Image src ={icon} alt='icon'></Image>
                     <p className='text-gray-700 font-semibold'>{title}</p>
                 </div>
                 <h2 className=' text-4xl md:text-6xl font-bold tracking-tight text-gray-800 mt-6'>{bigTitle}</h2>
@@ -21,8 +21,8 @@ const PageHero = ({icon, title, bigTitle, paragraph, button, buttonLink, heroImg
                 </Link>
             </div>
             <div className=' w-full lg:w-1/2 flex justify-center mt-10 lg:mt-0 lg:justify-end'>
-                <Image src ={heroImg1} className='relative w-full md:w-[70%] lg:w-[90%] xl:w-[80%]' data-aos ='fade-up'></Image>
-                <Image src ={heroImg2} className='absolute w-[50%] sm:w-[50%] lg:w-[28%] self-center justify-self-center' data-aos ='fade-up'></Image>
+                <Image src ={heroImg1} alt='heroImg' className='relative w-full md:w-[70%] lg:w-[90%] xl:w-[80%]' data-aos ='fade-up'></Image>
+                <Image src ={heroImg2} alt='heroImg' className='absolute w-[50%] sm:w-[50%] lg:w-[28%] self-center justify-self-center' data-aos ='fade-up'></Image>
             </div>
         </div>
         {/* </section> */}

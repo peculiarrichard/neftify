@@ -171,7 +171,7 @@ const Studio = () => {
                 </div>
               ) : null}
               <div className="bg-[#0d2138] m-3 rounded-xl border border-[#38476A] flex-1 overflow-hidden">
-                <Image src={modal} className="md:w-[40%] m-auto"></Image>
+                <Image src={modal} alt='modal' className="md:w-[40%] m-auto"></Image>
               </div>
             </div>
 

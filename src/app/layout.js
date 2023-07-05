@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   }, []);
   return (
     <html lang="en">
-      <body className=''>{children}</body>
+      <body className='' suppressHydrationWarning={true}>{children}</body>
     </html>
   )
 }

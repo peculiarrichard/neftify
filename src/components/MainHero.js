@@ -19,8 +19,8 @@ const MainHero = () => {
                 </Link>
             </div>
             <div className=' w-full lg:w-1/2 flex justify-center mt-10 lg:mt-0 lg:justify-end'>
-                <Image src ={wireframe} className='relative w-full md:w-[70%] lg:w-[90%] xl:w-[80%]' data-aos ='fade-up'></Image>
-                <Image src ={modal} className='absolute w-[50%] sm:w-[50%] lg:w-[28%] self-center justify-self-center' data-aos ='fade-up'></Image>
+                <Image src ={wireframe} alt='wireframe' className='relative w-full md:w-[70%] lg:w-[90%] xl:w-[80%]' data-aos ='fade-up'></Image>
+                <Image src ={modal} alt='modal' className='absolute w-[50%] sm:w-[50%] lg:w-[28%] self-center justify-self-center' data-aos ='fade-up'></Image>
             </div>
         </div>
         </section>

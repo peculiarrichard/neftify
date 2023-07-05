@@ -32,7 +32,7 @@ const Product = () => {
                     <p className='text-gray-700 font-semibold text-sm'>Connect</p>
                 </div>
                 <p className='text-gray-700 leading-6 text-base text-left'>Prebuilt, drop-in wallet gateway optimized for conversion.</p>
-                <Image className='' src={ConnectThumb}></Image>
+                <Image className='' src={ConnectThumb} alt='connect'></Image>
                 
             </Link>
             <Link href ='/nodes' className='flex flex-col items-start justify-start gap-4 border rounded-xl px-2'>
@@ -41,7 +41,7 @@ const Product = () => {
                     <p className='text-gray-700 font-semibold text-sm'>Nodes</p>
                 </div>
                 <p className='text-gray-700 leading-6 text-base text-left'>The ultimate solution for un-compromised and scalable nodes.</p>
-                <Image className='' src={NodesThumb}></Image>
+                <Image className='' alt='nodes' src={NodesThumb}></Image>
                 
             </Link>
             <Link href ='/issuing' className='flex flex-col items-start justify-start gap-4 border rounded-xl px-2'>
@@ -50,7 +50,7 @@ const Product = () => {
                     <p className='text-gray-700 font-semibold text-sm'>Issuing</p>
                 </div>
                 <p className='text-gray-700 leading-6 text-base text-left'>Simplified wallet issuing process for your business.</p>
-                <Image className='' src={IssuingThumb}></Image>
+                <Image className='' alt='issuing' src={IssuingThumb}></Image>
                 
             </Link>
             <Link href ='/zkproofs' className='flex flex-col items-start justify-start gap-4 border rounded-xl px-2'>
@@ -59,7 +59,7 @@ const Product = () => {
                     <p className='text-gray-700 font-semibold text-sm'>ZkProofs</p>
                 </div>
                 <p className='text-gray-700 leading-6 text-base text-left'>Cloud computing API for zero-knowledge proof.</p>
-                <Image className='' src={zkproofsThumb}></Image>
+                <Image className='' alt='zkproofs' src={zkproofsThumb}></Image>
                 
             </Link>
            
