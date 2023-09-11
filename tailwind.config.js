@@ -15,6 +15,9 @@ module.exports = {
     //   'xl': '1200px'
     // },
     extend: {
+      backgroundImage: {
+        'abouthero': "url('/public/abouthero.jpg')"
+      }
     },
   },
   plugins: [],
